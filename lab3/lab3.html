@@ -19,8 +19,8 @@
         <div class="image-div"><img class="image" src="../images/my_img.png"></div>
         <section class="sec-btn">
             <a href="../index.html"><button>Лабораторна робота №1</button></a>
-            <a href="lab2.html"><button class="choose">Лабораторна робота №2</button></a>
-            <a href="../lab3/lab3.html"><button>Лабораторна робота №3</button></a>
+            <a href="../lab2/lab2.html"><button>Лабораторна робота №2</button></a>
+            <a href="lab3.html"><button class="choose">Лабораторна робота №3</button></a>
             <a href="lab4.html"><button>Лабораторна робота №4</button></a>
             <a href="lab5.html"><button>Лабораторна робота №5</button></a>
             <a href="lab6.html"><button>Лабораторна робота №6</button></a>
@@ -32,33 +32,32 @@
 
     <main>
         <section class="sec-lab1">
-            <a href="2topic.html"><button class="btns-menu">Тема, Мета, Місце розташування</button> </a><br>
-            <a href="2con_ways.html"><button class="btns-menu">Способи підключення стилів</button></a><br>
-            <a href="2selectors.html"><button class="btns-menu">СЕЛЕКТОРИ</button></a><br>
+            <button class="btns-menu" onclick="topic()">Тема, Мета, Місце розташування</button> <br>
+            <button class="btns-menu" onclick="task_1()">ЗАВДАННЯ №1 Зовнішній вигляд макету. Код макету</button><br>
+            <button class="btns-menu" onclick="task_2()">ЗАВДАННЯ №2</button><br>
             <div class="html-el">
-                <a href="2tag.html"><button class="clicked1">Селектори тегу</button></a><br>
-                <a href="2class.html"><button class="html-btn">Селектори класу</button></a><br>
-                <a href="2id.html"><button class="html-btn">Селектори ідентифікаторів</button></a><br>
-                <a href="2other.html"><button class="html-btn">Інші селектори</button></a><br>
+                <button class="html-btn" onclick="fixed_table()">Фіксована таблична верстка</button><br>
+                <button class="html-btn" onclick="auto_table()">Гумова таблична верстка</button><br>
+                <button class="html-btn" onclick="fixed_block()">Фіксована блокова верстка</button><br>
+                <button class="html-btn" onclick="auto_block()">Гумова блокова верстка</button><br>
             </div>
-            <a href="2fonts.html"><button class="btns-menu">CSS: Шрифти Текст Таблиці Фон Контур Списки CSS Просунутий</button></a><br>
-            <a href="2conclusion.html"><button class="btns-menu">Висновки</button></a>
+
+            <button class="btns-menu" onclick="task_3()">ЗАВДАННЯ №3</button><br>
+            <div class="html-el">
+                <button class="html-btn" onclick="screenshot()">Скриншот сторінки (Flexbox)</button><br>
+                <button class="html-btn" onclick="html_code()">HTML-код (Flexbox)</button><br>
+                <button class="html-btn" onclick="css_code()">CSS-код (Flexbox)</button><br>
+            </div>
+            <button class="btns-menu" onclick="conclusion()">Висновки</button>
         </section>
-        
-        <div class="desc2">
-            <pre>
-&lt;h1 style="font-family: Josefin Slab;"&gt; Your diary &lt;/h1&gt;
 
+        <div class="desc">
 
-h1{
-    font-size: 30px;
-    user-select: none;
-}
-            </pre>
-            <img src="../images/selectors_tag_ex.png" alt=""><br><br>
         </div>
 
     </main>
 
+
+    <script src="script3.js"></script>
 </body>
 </html>

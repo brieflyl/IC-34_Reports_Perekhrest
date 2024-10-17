@@ -1,11 +1,11 @@
-/*a{
+a{
     text-decoration: none;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-} */
+} 
 .image{
     object-fit: cover;
     height: 150px;
@@ -22,6 +22,9 @@ ul {
 .sec-btn button{
     margin-bottom: 10px;
 }
+.sec-lab1{
+    margin: 30px;
+}
 body, button{
     font-family: Merriweather;
 }
@@ -33,10 +36,13 @@ button{
     font-size: 14px;
     cursor: pointer;
 }
+main{
+    display: flex;
+    justify-content: left;
+}
 .desc{
+    margin: 20px;
     text-align: left;
-    margin-top: -580px;
-    margin-left: 500px;
 }
 .btns-menu{
     background-color: #567bbe;
@@ -70,10 +76,4 @@ button{
     width: 350px;
     height: 75px;
     margin-top: 10px;
-}
-
-.desc2{
-    text-align: left;
-    margin-top: -740px;
-    margin-left: 500px;
 }
