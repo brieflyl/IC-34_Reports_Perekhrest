@@ -22,7 +22,7 @@ function topic() {
     desc.textContent = '';
 
     desc.innerHTML =  `
-        <img src="images/theme3.png" alt="">
+        <img src="./images/theme3.png" alt="">
         <br><br> 
         <p>Посилання на живу сторінку <b>веб-застосунку</b><br><br>
             <a href="https://brieflyl.github.io/IC-34_Web_Lab2_Perekhrest/" target="_blank">
@@ -64,14 +64,14 @@ function task_1() {
 
     desc.innerHTML =  `
         <img src="images/page.png" alt="" width="1200px"><br><br>
-        <img src="/lab3/images/page_code_1.png" alt=""><br><br>
-        <img src="/lab3/images/page_code_2.png" alt=""><br><br>
-        <img src="/lab3/images/page_code_3.png" alt=""><br><br>
+        <img src="images/page_code_1.png" alt=""><br><br>
+        <img src="images/page_code_2.png" alt=""><br><br>
+        <img src="images/page_code_3.png" alt=""><br><br>
 
         <h3>CSS</h3><br>
 
-        <img src="/lab3/images/page_code_4.png" alt=""><br><br>
-        <img src="/lab3/images/page_code_5.png" alt="">
+        <img src="images/page_code_4.png" alt=""><br><br>
+        <img src="images/page_code_5.png" alt="">
     `;
 }
 
@@ -81,7 +81,7 @@ function task_2() {
     desc.textContent = '';
 
     desc.innerHTML =  `
-        <img src="task2.png" alt="" >
+        <img src="images/task2.png" alt="" >
         <p>Посилання на живу сторінку <b>завдань 2-3</b> <br><br>
             <a href="https://brieflyl.github.io/IC-34_Perekhrest_Web_Lab3_tasks23/" target="_blank">
                 https://brieflyl.github.io/IC-34_Perekhrest_Web_Lab3_tasks23/
@@ -101,10 +101,10 @@ function fixed_table() {
     desc.textContent = '';
 
     desc.innerHTML =  `
-        <img src="fixed_table_1.png" alt=""><br><br>
-        <img src="fixed_table_2.png" alt=""><br><br>
-        <img src="fixed_table_3.png" alt=""><br><br>
-        <img src="fixed_table_4.png" alt="">
+        <img src="images/fixed_table_1.png" alt=""><br><br>
+        <img src="images/fixed_table_2.png" alt=""><br><br>
+        <img src="images/fixed_table_3.png" alt=""><br><br>
+        <img src="images/fixed_table_4.png" alt="">
     `;
 }
 
@@ -114,10 +114,10 @@ function auto_table() {
     desc.textContent = '';
 
     desc.innerHTML =  `
-        <img src="auto_table_1.png" alt="" width="1200px"><br><br>
-        <img src="auto_table_2.png" alt=""><br><br>
-        <img src="auto_table_3.png" alt=""><br><br>
-        <img src="auto_table_4.png" alt="">
+        <img src="images/auto_table_1.png" alt="" width="1200px"><br><br>
+        <img src="images/auto_table_2.png" alt=""><br><br>
+        <img src="images/auto_table_3.png" alt=""><br><br>
+        <img src="images/auto_table_4.png" alt="">
     `;
 }
 
@@ -127,10 +127,10 @@ function fixed_block() {
     desc.textContent = '';
 
     desc.innerHTML =  `
-        <img src="fixed_block_1.png" alt=""><br><br>
-        <img src="fixed_block_2.png" alt=""><br><br>
-        <img src="fixed_block_3.png" alt=""><br><br>
-        <img src="fixed_block_4.png" alt="">
+        <img src="images/fixed_block_1.png" alt=""><br><br>
+        <img src="images/fixed_block_2.png" alt=""><br><br>
+        <img src="images/fixed_block_3.png" alt=""><br><br>
+        <img src="images/fixed_block_4.png" alt="">
     `;
 }
 
@@ -140,10 +140,10 @@ function auto_block() {
     desc.textContent = '';
 
     desc.innerHTML =  `
-        <img src="/lab3/images/auto_block_1.png" alt="" width="1200px"><br><br>
-        <img src="/lab3/images/auto_block_2.png" alt=""><br><br>
-        <img src="/lab3/images/auto_block_3.png" alt=""><br><br>
-        <img src="/lab3/images/auto_block_4.png" alt="">
+        <img src="images/auto_block_1.png" alt="" width="1200px"><br><br>
+        <img src="images/auto_block_2.png" alt=""><br><br>
+        <img src="images/auto_block_3.png" alt=""><br><br>
+        <img src="images/auto_block_4.png" alt="">
     `;
 }
 
@@ -153,7 +153,7 @@ function task_3() {
     desc.textContent = '';
 
     desc.innerHTML =  `
-        <img src="task3.png" alt="" >
+        <img src="images/task3.png" alt="" >
         <p>Посилання на живу сторінку <b>завдань 2-3</b> <br><br>
             <a href="https://brieflyl.github.io/IC-34_Perekhrest_Web_Lab3_tasks23/" target="_blank">
                 https://brieflyl.github.io/IC-34_Perekhrest_Web_Lab3_tasks23/
@@ -173,9 +173,9 @@ function screenshot() {
     desc.textContent = '';
 
     desc.innerHTML =  `
-        <img src="screenshot_1.png" alt="" width="1200px"><br><br>
-        <img src="screenshot_2.png" alt="" width="1200px"><br><br>
-        <img src="screenshot_3.png" alt="" width="1200px">
+        <img src="images/screenshot_1.png" alt="" width="1200px"><br><br>
+        <img src="images/screenshot_2.png" alt="" width="1200px"><br><br>
+        <img src="images/screenshot_3.png" alt="" width="1200px">
     `;
 }
 
@@ -185,10 +185,10 @@ function html_code() {
     desc.textContent = '';
 
     desc.innerHTML =  `
-        <img src="html_code_1.png" alt=""><br><br>
-        <img src="html_code_2.png" alt=""><br><br>
-        <img src="html_code_3.png" alt=""><br><br>
-        <img src="html_code_4.png" alt="">
+        <img src="images/html_code_1.png" alt=""><br><br>
+        <img src="images/html_code_2.png" alt=""><br><br>
+        <img src="images/html_code_3.png" alt=""><br><br>
+        <img src="images/html_code_4.png" alt="">
     `;
 }
 
@@ -198,13 +198,13 @@ function css_code() {
     desc.textContent = '';
 
     desc.innerHTML =  `
-        <img src="css_code_1.png" alt=""><br><br>
-        <img src="css_code_2.png" alt=""><br><br>
-        <img src="css_code_3.png" alt=""><br><br>
-        <img src="css_code_4.png" alt=""><br><br>
-        <img src="css_code_5.png" alt=""><br><br>
-        <img src="css_code_6.png" alt=""><br><br>
-        <img src="css_code_7.png" alt="">
+        <img src="images/css_code_1.png" alt=""><br><br>
+        <img src="images/css_code_2.png" alt=""><br><br>
+        <img src="images/css_code_3.png" alt=""><br><br>
+        <img src="images/css_code_4.png" alt=""><br><br>
+        <img src="images/css_code_5.png" alt=""><br><br>
+        <img src="images/css_code_6.png" alt=""><br><br>
+        <img src="images/css_code_7.png" alt="">
     `;
 }
 
