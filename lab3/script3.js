@@ -22,7 +22,7 @@ function topic() {
     desc.textContent = '';
 
     desc.innerHTML =  `
-        <img src="theme3.png" alt="">
+        <img src="images/theme3.png" alt="">
         <br><br> 
         <p>Посилання на живу сторінку <b>веб-застосунку</b><br><br>
             <a href="https://brieflyl.github.io/IC-34_Web_Lab2_Perekhrest/" target="_blank">
@@ -63,15 +63,15 @@ function task_1() {
     desc.textContent = '';
 
     desc.innerHTML =  `
-        <img src="page.png" alt="" width="1200px"><br><br>
-        <img src="page_code_1.png" alt=""><br><br>
-        <img src="page_code_2.png" alt=""><br><br>
-        <img src="page_code_3.png" alt=""><br><br>
+        <img src="images/page.png" alt="" width="1200px"><br><br>
+        <img src="/lab3/images/page_code_1.png" alt=""><br><br>
+        <img src="/lab3/images/page_code_2.png" alt=""><br><br>
+        <img src="/lab3/images/page_code_3.png" alt=""><br><br>
 
         <h3>CSS</h3><br>
 
-        <img src="page_code_4.png" alt=""><br><br>
-        <img src="page_code_5.png" alt="">
+        <img src="/lab3/images/page_code_4.png" alt=""><br><br>
+        <img src="/lab3/images/page_code_5.png" alt="">
     `;
 }
 
@@ -140,10 +140,10 @@ function auto_block() {
     desc.textContent = '';
 
     desc.innerHTML =  `
-        <img src="auto_block_1.png" alt="" width="1200px"><br><br>
-        <img src="auto_block_2.png" alt=""><br><br>
-        <img src="auto_block_3.png" alt=""><br><br>
-        <img src="auto_block_4.png" alt="">
+        <img src="/lab3/images/auto_block_1.png" alt="" width="1200px"><br><br>
+        <img src="/lab3/images/auto_block_2.png" alt=""><br><br>
+        <img src="/lab3/images/auto_block_3.png" alt=""><br><br>
+        <img src="/lab3/images/auto_block_4.png" alt="">
     `;
 }
 
