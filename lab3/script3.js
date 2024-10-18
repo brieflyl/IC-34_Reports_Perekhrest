@@ -204,7 +204,7 @@ function css_code() {
         <img src="./images/css_code_4.png" alt=""><br><br>
         <img src="./images/css_code_5.png" alt=""><br><br>
         <img src="./images/css_code_6.png" alt=""><br><br>
-        <img src="./images/css_code_7.png" alt="">
+        <img src="./images/css_code_7.png" alt="">a
     `;
 }
 
