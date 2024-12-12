@@ -312,6 +312,7 @@ function task9() {
 
         <h3>Програмний код</h3><br>
         <img src="./images/task9_prog.png" alt="">
+
         <h3>Результати виконання</h3><br>
         <img src="./images/task9_results.png" alt="">
     `;
@@ -345,7 +346,7 @@ function task10() {
 
         <h3>Виконання</h3>
         <div id="controls">
-          <input type="number" min="1" max="100" step="1" placeholder="Enter amount" />
+          <input type="number" min="1" max="100" step="1" placeholder="Enter amount" style="width: 100px" />
           <button type="button" data-create>Create</button>
           <button type="button" data-destroy>Destroy</button>
         </div>
@@ -354,6 +355,7 @@ function task10() {
 
         <h3>Програмний код</h3><br>
         <img src="./images/task10_prog.png" alt="">
+
         <h3>Результати виконання</h3><br>
         <img src="./images/task10_results.png" alt="">
     `;
